@@ -21,7 +21,7 @@ int main()
                 int org=ar[j];
                 ar[j]=ar[j+1];
                 ar[j+1]=org;
-                flag=false;
+                flag=false;            // using of bool to ensure that if the condtion hits the flag will return false 
             }
         }
         if(flag==true)
